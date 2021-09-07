@@ -46,6 +46,7 @@ If you choose to install Jetstream through Composer, you should run the jetstrea
 
 ```bash
 // without teams support
+
 php artisan jetstream:install livewire
 
 or
