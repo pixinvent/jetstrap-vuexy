@@ -2,8 +2,6 @@
 
 [![Latest Stable Version](https://poser.pugx.org/pixinvent/jetstrap-vuexy/v)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
 
-[![Total Downloads](https://poser.pugx.org/pixinvent/jetstrap-vuexy/downloads)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
-
 [![License](https://poser.pugx.org/pixinvent/jetstrap-vuexy/license)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
 
 ##### Specially customized Laravel jetstream's scaffolding for [Vuexy-html-laravel-template](https://themeforest.net/item/vuexy-vuejs-html-laravel-admin-dashboard-template/23328599). It does not work with another project
