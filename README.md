@@ -63,7 +63,7 @@ Use Composer to install Jetstrap into your new Laravel project as dev dependency
 
 ```
 
-composer require Pixinvent/jetstrap-vuexy --dev
+composer require pixinvent/jetstrap-vuexy --dev
  
 
 ```
