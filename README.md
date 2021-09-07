@@ -3,11 +3,11 @@
 [![Latest Stable Version](https://poser.pugx.org/pixinvent/jetstrap-vuexy/v)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
 [![License](https://poser.pugx.org/pixinvent/jetstrap-vuexy/license)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
 
-##### Specially customized Laravel jetstream's scaffolding for [Vuexy-html-laravel-template](https://themeforest.net/item/vuexy-vuejs-html-laravel-admin-dashboard-template/23328599). It does not work with another project
+##### Specially customized Laravel jetstream's scaffolding for [Vuexy-html-laravel-template](https://1.envato.market/vuexy_admin). It'll not work with any other project.
 
 ## Description
 
-Laravel Jetstream is designed using Tailwind CSS and offers your choice of Livewire or Inertia scaffolding. We have remove the Tailwind css dependency and modify the Livewire scaffolding as per our template theme. __Please note we have not provided Inertia scaffolding yet__.
+Laravel Jetstream is designed using Tailwind CSS and offers your choice of Livewire or Inertia scaffolding. We have removed the Tailwind CSS dependency and modified the Livewire scaffolding as per our template. __Please note we have not provided Inertia scaffolding yet. This package only works with livewire scaffolding__.
 
 Vuexy Jetstrap is a lightweight laravel 8 package that focuses on the `VIEW` side of [Jetstream](https://github.com/laravel/jetstream) package installed in your Laravel application, so when a swap is performed, the `Action`, `MODEL`, `CONTROLLER`, `Component` and `Action` classes of your project is still 100% handled by Laravel development team with no added layer of complexity.
 
@@ -19,7 +19,7 @@ Vuexy Jetstrap is a lightweight laravel 8 package that focuses on the `VIEW` sid
 
 * [Install Jetstream With Livewire](#install-jetstream-with-livewire)
 
-* [Install Jetstrap](#install-jetstrap)
+* [Install Vuexy Jetstrap](#install-jetstrap)
 
 * [Finalizing The Installation](#finalizing-the-installation)
 
@@ -45,18 +45,20 @@ If you choose to install Jetstream through Composer, you should run the jetstrea
 #### Install Jetstream With Livewire
 
 ```bash
-
+// without teams support
 php artisan jetstream:install livewire
 
 or
+
+// with teams support
 
 php artisan jetstream:install livewire --teams
 
 ```
 
-### Install Jetstrap
+### Install Vuexy Jetstrap
 
-Use Composer to install Jetstrap into your new Laravel project as dev dependency:
+Use Composer to install Vuexy Jetstrap into your new Laravel project as dev dependency:
 
 ```
 
@@ -65,7 +67,7 @@ composer require pixinvent/jetstrap-vuexy --dev
 
 ```
 
-Regardless how you install Jetstream, Jetstrap commands are very similar to that
+Regardless how you install Jetstream, Vuexy Jetstrap commands are very similar to that
 
 of Jetstream as it accepts the name of the stack you would like to swap (livewire).
 
@@ -76,13 +78,14 @@ You are highly encouraged to read through the entire documentation of [Jetstream
 before beginning your Jetstrap project. In addition, you may use the `--teams` switch to swap team assets just like you would in Jetstream:
 
 ```bash
+// without teams support
 
 php artisan jetstrap_vuexy:swap livewire
 
 
 or
 
-
+// with teams support
 
 php artisan jetstrap_vuexy:swap livewire --teams
 
@@ -92,12 +95,13 @@ This will publish overrides to enable Bootstrap like the good old days!
 
 ### Finalizing The Installation
 
-After installing Jetstrap and swapping Jetstream resources, remove tailwindCSS and its dependencies if any from your package.json and then install and build your NPM dependencies and migrate your database:
+After installing Vuexy Jetstrap and swapping Jetstream resources, remove tailwindCSS and its dependencies if any from your package.json and then install and build your NPM dependencies and migrate your database:
 
 ```
 
 npm install && npm run mix
-  
+
+or  
 
 yarn && yarn mix
 
@@ -156,6 +160,10 @@ Paginator::useBootstrap();
 
 ```
 
+## Credits
+
+This packages is built on top of [Jetstream](https://github.com/laravel/jetstream) & [Jetstrap](https://github.com/nascent-africa/jetstrap)
+
 ## License
 
-Jetstrap is open-sourced software licensed under the [MIT license](https://github.com/pixinvent/jetstrap-vuexy/blob/master/LICENSE).
+Vuexy Jetstrap is open-sourced software licensed under the [MIT license](https://github.com/pixinvent/jetstrap-vuexy/blob/master/LICENSE).
