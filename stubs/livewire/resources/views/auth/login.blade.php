@@ -1,4 +1,4 @@
-@extends('layouts/FullLayoutMaster')
+@extends('layouts/fullLayoutMaster')
 
 @section('title', 'Login')
 

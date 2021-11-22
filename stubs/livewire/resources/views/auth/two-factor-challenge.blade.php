@@ -1,4 +1,4 @@
-@extends('layouts/FullLayoutMaster')
+@extends('layouts/fullLayoutMaster')
 
 @section('title', '2 Factor Chanllenge')
 
@@ -73,7 +73,7 @@
               </div>
 
               <div class="mb-1" x-show="recovery">
-                <x-jet-label  class="form-label" value="{{ __('Recovery Code') }}" />
+                <x-jet-label class="form-label" value="{{ __('Recovery Code') }}" />
                 <x-jet-input class="{{ $errors->has('recovery_code') ? 'is-invalid' : '' }}" type="text"
                   name="recovery_code" x-ref="recovery_code" autocomplete="one-time-code" />
                 <x-jet-input-error for="recovery_code"></x-jet-input-error>
