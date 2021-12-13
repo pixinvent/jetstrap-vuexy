@@ -179,7 +179,7 @@ class InstallCommand extends Command
 
 @stack('modals')
 @livewireScripts
-<script src="{{ asset(mix('vendors/js/alpinejs/alpine.js')) }}"></script>
+<script defer src="{{ asset(mix('vendors/js/alpinejs/alpine.js')) }}"></script>
 
 EOF;
     }
