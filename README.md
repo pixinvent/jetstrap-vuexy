@@ -4,6 +4,7 @@
 [![License](https://poser.pugx.org/pixinvent/jetstrap-vuexy/license)](//packagist.org/packages/pixinvent/jetstrap-vuexy)
 
 ##### Specially customized Laravel jetstream's scaffolding for [Vuexy-html-laravel-template](https://1.envato.market/vuexy_admin). It'll not work with any other project.
+[Download from packagist](https://packagist.org/packages/pixinvent/jetstrap-vuexy)
 
 ## Description
 
