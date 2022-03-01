@@ -105,7 +105,7 @@ npm install && npm run mix
 
 or  
 
-yarn && yarn mix
+yarn && yarn dev
 
 
 php artisan migrate
