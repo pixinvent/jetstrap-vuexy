@@ -101,7 +101,7 @@ After installing Vuexy Jetstrap and swapping Jetstream resources, remove tailwin
 
 ```
 
-npm install && npm run mix
+npm install && npm run dev
 
 or  
 
